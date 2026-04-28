@@ -297,3 +297,29 @@ dismissDialog("Add Simulation Sources"); // bv (c)
 // Tcl Message: update_compile_order -fileset sim_1 
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 94 MB (+968kb) [00:08:42]
+// Elapsed time: 243 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_AU_7Seg(Behavioral) (TB_AU_7Seg.vhd)]", 13, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_AU_7Seg(Behavioral) (TB_AU_7Seg.vhd)]", 13, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 240 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_AU_7Seg(Behavioral) (TB_AU_7Seg.vhd)]", 13); // B (D, ch)
+// [GUI Memory]: 99 MB (+171kb) [00:16:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 679 MB. GUI used memory: 47 MB. Current time: 4/28/26 11:05:50 AM IST
+// Elapsed time: 154 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AU_7Seg(Behavioral) (AU_7Seg.vhd), LUT_16_7_0 : LUT_16_7(Behavioral) (LUT_16_7.vhd)]", 7, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AU_7Seg(Behavioral) (AU_7Seg.vhd), LUT_16_7_0 : LUT_16_7(Behavioral) (LUT_16_7.vhd)]", 7, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 475 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AU_7Seg(Behavioral) (AU_7Seg.vhd), AU_0 : AU(Behavioral) (AU.vhd), RCA_4_0 : RCA_4(Behavioral) (RCA_4.vhd)]", 6); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AU_7Seg(Behavioral) (AU_7Seg.vhd), AU_0 : AU(Behavioral) (AU.vhd), RCA_4_0 : RCA_4(Behavioral) (RCA_4.vhd), FA_0 : FA(Behavioral) (FA.vhd)]", 7); // B (D, ch)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd)]", 20, true); // B (D, ch) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd)]", 20); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd), UUT : FA(Behavioral) (FA.vhd)]", 21, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd), UUT : FA(Behavioral) (FA.vhd)]", 21, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd), UUT : FA(Behavioral) (FA.vhd), HA_0 : HA(Behavioral) (HA.vhd)]", 22, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd), UUT : FA(Behavioral) (FA.vhd), HA_0 : HA(Behavioral) (HA.vhd)]", 22, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd), UUT : FA(Behavioral) (FA.vhd), HA_0 : HA(Behavioral) (HA.vhd)]", 22, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd)]", 20, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_FA(Behavioral) (TB_FA.vhd)]", 20, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_4_RCA(Behavioral) (TB_RCA_4.vhd)]", 18, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_4_RCA(Behavioral) (TB_RCA_4.vhd)]", 18, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
