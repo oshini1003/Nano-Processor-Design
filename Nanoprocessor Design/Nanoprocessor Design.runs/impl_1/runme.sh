@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log RCA_4.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source RCA_4.tcl -notrace
+EAStep vivado -log Decoder_2_to_4.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Decoder_2_to_4.tcl -notrace
 
 

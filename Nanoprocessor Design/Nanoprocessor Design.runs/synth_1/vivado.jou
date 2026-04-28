@@ -2,11 +2,11 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Tue Apr 28 10:25:37 2026
-# Process ID: 29060
+# Start of session at: Tue Apr 28 11:36:53 2026
+# Process ID: 28716
 # Current directory: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1
-# Command line: vivado.exe -log RCA_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RCA_4.tcl
-# Log file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1/RCA_4.vds
+# Command line: vivado.exe -log Decoder_2_to_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder_2_to_4.tcl
+# Log file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1/Decoder_2_to_4.vds
 # Journal file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source RCA_4.tcl -notrace
+source Decoder_2_to_4.tcl -notrace
