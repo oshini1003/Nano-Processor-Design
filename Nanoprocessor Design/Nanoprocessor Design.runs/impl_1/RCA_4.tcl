@@ -60,20 +60,23 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param synth.incrementalSynthesisCache C:/Users/USER/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19776-DESKTOP-R7EP7AC/incrSyn
   create_project -in_memory -part xc7a35tcpg236-1
   set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.cache/ip}} [current_project]
+  set_property webtalk.parent_dir {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet {{C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1/RCA_4.dcp}}
+  add_files -quiet {{C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1/RCA_4.dcp}}
   link_design -top RCA_4 -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]
