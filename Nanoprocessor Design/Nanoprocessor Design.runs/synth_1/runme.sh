@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=C:/Xilinxnew/SDK/2018.1/bin;C:/Xilinxnew/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinxnew/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinxnew/Vivado/2018.1/bin
+  PATH=C:/Users/DELL/Desktop/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Users/DELL/Desktop/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Users/DELL/Desktop/Vivado/2018.1/bin
 else
-  PATH=C:/Xilinxnew/SDK/2018.1/bin;C:/Xilinxnew/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinxnew/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinxnew/Vivado/2018.1/bin:$PATH
+  PATH=C:/Users/DELL/Desktop/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Users/DELL/Desktop/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Users/DELL/Desktop/Vivado/2018.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1'
+HD_PWD='C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Decoder_2_to_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder_2_to_4.tcl
+EAStep vivado -log Mux_8_to_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mux_8_to_1.tcl
