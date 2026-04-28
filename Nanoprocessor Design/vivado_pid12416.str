@@ -1,0 +1,108 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 12416
+License: Customer
+
+Current time: 	Tue Apr 28 13:02:40 IST 2026
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 52 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Users/DELL/Desktop/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Users/DELL/Desktop/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	DELL
+User home directory: C:/Users/DELL
+User working directory: C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Users/DELL/Desktop/Vivado
+HDI_APPROOT: C:/Users/DELL/Desktop/Vivado/2018.1
+RDI_DATADIR: C:/Users/DELL/Desktop/Vivado/2018.1/data
+RDI_BINDIR: C:/Users/DELL/Desktop/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Users/DELL/Desktop/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/vivado.log
+Vivado journal file location: 	C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/vivado.jou
+Engine tmp dir: 	C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/.Xil/Vivado-12416-DELL
+
+GUI allocated memory:	216 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 513 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+53426kb) [00:00:12]
+// [Engine Memory]: 505 MB (+377707kb) [00:00:12]
+// Opening Vivado Project: C:\Users\DELL\Desktop\Nano-Processor-Design\Nanoprocessor Design\Nanoprocessor Design.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano_Processor/Nanoprocessor Design' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/DELL/Desktop/Vivado/2018.1/data/ip'. 
+// [GUI Memory]: 67 MB (+11122kb) [00:00:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 539 MB. GUI used memory: 34 MB. Current time: 4/28/26 1:02:42 PM IST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 568 MB (+40070kb) [00:00:19]
+// [Engine Memory]: 599 MB (+2020kb) [00:00:22]
+// Project name: Nanoprocessor Design; location: C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 833.871 ; gain = 81.562 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// x (ch): Invalid Top Module: addNotify
+// a (ch): Critical Messages: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Invalid Top Module"); // x (ch)
+dismissDialog("Critical Messages"); // a (ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, ch)
+// [GUI Memory]: 71 MB (+585kb) [00:00:46]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AU_7Seg(Behavioral) (AU_7Seg.vhd)]", 2); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AU_7Seg(Behavioral) (AU_7Seg.vhd), AU_0 : AU(Behavioral) (AU.vhd)]", 3); // B (D, ch)
+// [GUI Memory]: 75 MB (+1207kb) [00:02:52]
+// [Engine Memory]: 629 MB (+72kb) [00:03:55]
+// PAPropertyPanels.initPanels (AU.vhd) elapsed time: 0.3s
+// Elapsed time: 189 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AU_7Seg(Behavioral) (AU_7Seg.vhd), AU_0 : AU(Behavioral) (AU.vhd)]", 3, true); // B (D, ch) - Node
+// [GUI Memory]: 80 MB (+938kb) [00:04:57]
