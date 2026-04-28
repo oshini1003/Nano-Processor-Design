@@ -2,12 +2,19 @@
 2018.1
 Apr  4 2018
 19:30:32
+C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sim_1/new/ADD_SUB_TB.vhd,1777373020,vhdl,,,,add_sub_tb,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sim_1/new/Counter_Sim.vhd,1777365272,vhdl,,,,counter_sim,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sim_1/new/D_FF_Sim.vhd,1777365272,vhdl,,,,d_ff_sim,,,,,,,,
+C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sim_1/new/TB_Adder_3bit.vhd,1777373020,vhdl,,,,tb_adder_3bit,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sim_1/new/TB_Decoder_2_to_4.vhd,1777366892,vhdl,,,,tb_decoder_2_to_4,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sim_1/new/TB_Decoder_3_to_8.vhd,1777366892,vhdl,,,,tb_decoder_3_to_8,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sim_1/new/TB_Mux_8_to_1.vhd,1777366892,vhdl,,,,tb_mux_8_to_1,,,,,,,,
+C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/imports/new/FA.vhd,1777351142,vhdl,,,,fa,,,,,,,,
+C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/imports/new/HA.vhd,1777351142,vhdl,,,,ha,,,,,,,,
+C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/imports/new/RCA_4.vhd,1777373020,vhdl,,,,rca_4,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/imports/new/Slow_Clk.vhd,1774281712,vhdl,,,,slow_clk,,,,,,,,
+C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/new/ADD_SUB.vhd,1777374078,vhdl,,,,add_sub,,,,,,,,
+C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/new/Adder_3bit.vhd,1777373020,vhdl,,,,adder_3bit,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/new/Counter.vhd,1777365272,vhdl,,,,counter,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/new/D_FF.vhd,1777365272,vhdl,,,,d_ff,,,,,,,,
 C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.srcs/sources_1/new/Decoder_2_to_4.vhd,1777366892,vhdl,,,,decoder_2_to_4,,,,,,,,

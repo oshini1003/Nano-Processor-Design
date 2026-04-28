@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Mux_8_to_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mux_8_to_1.tcl
+EAStep vivado -log Adder_3bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adder_3bit.tcl
