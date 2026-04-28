@@ -2139,3 +2139,5 @@ dismissDialog("Launch Runs"); // f (ch)
 dismissDialog("Starting Design Runs"); // bv (ch)
 // TclEventType: RUN_COMPLETED
 // ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 103 seconds
+dismissDialog("Synthesis Completed"); // ah (ch)
