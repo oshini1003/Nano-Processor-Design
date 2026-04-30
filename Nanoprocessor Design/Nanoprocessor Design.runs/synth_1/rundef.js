@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log Adder_3bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adder_3bit.tcl" );
+         "-log Nano_processor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nano_processor.tcl" );
 
 
 
