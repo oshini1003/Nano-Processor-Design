@@ -1,0 +1,121 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 15964
+License: Customer
+
+Current time: 	Tue May 05 11:38:41 IST 2026
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 107 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinxnew/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinxnew/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/Users/USER/Downloads/Nano_basic_nim
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinxnew/Vivado
+HDI_APPROOT: C:/Xilinxnew/Vivado/2018.1
+RDI_DATADIR: C:/Xilinxnew/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinxnew/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinxnew/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/USER/Downloads/Nano_basic_nim/vivado.log
+Vivado journal file location: 	C:/Users/USER/Downloads/Nano_basic_nim/vivado.jou
+Engine tmp dir: 	C:/Users/USER/Downloads/Nano_basic_nim/.Xil/Vivado-15964-DESKTOP-R7EP7AC
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 655 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 59 MB (+59486kb) [00:00:07]
+// [Engine Memory]: 556 MB (+431852kb) [00:00:07]
+// Opening Vivado Project: C:\Users\USER\Downloads\Nano_basic_nim\Nano_basic_nim.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 69 MB (+7504kb) [00:00:09]
+// [Engine Memory]: 655 MB (+74575kb) [00:00:09]
+// Tcl Message: open_project C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Vivado/Nano_basic_nim' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxnew/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 94 MB (+22610kb) [00:00:10]
+// [Engine Memory]: 688 MB (+406kb) [00:00:10]
+// [GUI Memory]: 100 MB (+1469kb) [00:00:11]
+// [Engine Memory]: 735 MB (+12941kb) [00:00:12]
+// [GUI Memory]: 106 MB (+116kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 40 MB. Current time: 5/5/26 11:38:44 AM IST
+// Project name: Nano_basic_nim; location: C:/Users/USER/Downloads/Nano_basic_nim; part: xc7a35tcpg236-1
+// [Engine Memory]: 776 MB (+3770kb) [00:00:13]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// x (ch): Invalid Top Module: addNotify
+dismissDialog("Invalid Top Module"); // x (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// x (ch): Invalid Top Module: addNotify
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 1043 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Invalid Top Module"); // x (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 42 MB. Current time: 5/5/26 12:08:46 PM IST

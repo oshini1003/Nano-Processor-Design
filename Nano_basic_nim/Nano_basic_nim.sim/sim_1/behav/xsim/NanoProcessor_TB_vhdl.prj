@@ -1,0 +1,31 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Nanoprocessor/Package Files/BusDefinitions.vhd" \
+"../../../../../Nanoprocessor/Source Files/Add_Subtract Unit/Add_Sub_4.vhd" \
+"../../../../../Nanoprocessor/Source Files/Adress Selector/Address_Selector.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/Decoder_2_to_4.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/Decoder_3_to_8.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/FA.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/HA.vhd" \
+"../../../../../Nanoprocessor/Package Files/constants.vhd" \
+"../../../../../Nanoprocessor/Source Files/Instruction Deocoder/Instruction_Decoder.vhd" \
+"../../../../../Nanoprocessor/Source Files/Lookup Table/LUT_16_7.vhd" \
+"../../../../../Nanoprocessor/Source Files/Load Selector/Load_Selector.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/Mux_2way_3bit.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/Mux_2way_4bit.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/Mux_8way_4bit.vhd" \
+"../../../../../Nanoprocessor/Source Files/Top File/NanoProcessor.vhd" \
+"../../../../../Nanoprocessor/Source Files/PC Adder/PC_Adder.vhd" \
+"../../../../../Nanoprocessor/Source Files/Program Counter/Program_Counter.vhd" \
+"../../../../../Nanoprocessor/Source Files/Program ROM/Program_ROM.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/RCA_3.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/RCA_4.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/Reg.vhd" \
+"../../../../../Nanoprocessor/Source Files/Register Data Multiplexer/RegisterData_Multiplexer.vhd" \
+"../../../../../Nanoprocessor/Source Files/Register Bank/Register_Bank.vhd" \
+"../../../../../Nanoprocessor/Source Files/Slow Clock/Slow_Clk.vhd" \
+"../../../../../Nanoprocessor/Building Blocks/reg_3bit.vhd" \
+"../../../../../Nanoprocessor/Testbench Files/NanoProcessor_TB.vhd" \
+
+# Do not sort compile order
+nosort

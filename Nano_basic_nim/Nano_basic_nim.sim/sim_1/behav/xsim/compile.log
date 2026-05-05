@@ -1,0 +1,41 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Adress Selector/Address_Selector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Address_Selector
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Package Files/constants.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Instruction Deocoder/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Lookup Table/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Load Selector/Load_Selector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Load_Selector
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/Mux_2way_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2way_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/Mux_2way_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2way_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/Mux_8way_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8way_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Top File/NanoProcessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/PC Adder/PC_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Program Counter/Program_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Program ROM/Program_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/RCA_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_3
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Register Data Multiplexer/RegisterData_Multiplexer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterData_Multiplexer
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Register Bank/Register_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Source Files/Slow Clock/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Building Blocks/reg_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity reg_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Nanoprocessor/Testbench Files/NanoProcessor_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor_TB

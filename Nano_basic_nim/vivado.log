@@ -1,0 +1,251 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue May  5 11:40:07 2026
+# Process ID: 29288
+# Current directory: C:/Users/USER/Downloads/Nano_basic_nim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20572 C:\Users\USER\Downloads\Nano_basic_nim\Nano_basic_nim.xpr
+# Log file: C:/Users/USER/Downloads/Nano_basic_nim/vivado.log
+# Journal file: C:/Users/USER/Downloads/Nano_basic_nim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Package Files/BusDefinitions.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Add_Subtract Unit/Add_Sub_4.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Adress Selector/Address_Selector.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_2_to_4.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_3_to_8.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/FA.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/HA.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Package Files/constants.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Instruction Deocoder/Instruction_Decoder.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Lookup Table/LUT_16_7.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Load Selector/Load_Selector.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_3bit.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_4bit.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_8way_4bit.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/PC Adder/PC_Adder.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program Counter/Program_Counter.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program ROM/Program_ROM.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_3.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_4.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Reg.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Data Multiplexer/RegisterData_Multiplexer.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Bank/Register_Bank.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Slow Clock/Slow_Clk.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/reg_3bit.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Source Files/Top File/NanoProcessor.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Package Files/adders.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Constraint File/Nanoprocessor_Const.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/NanoProcessor_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Add_Sub_4_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/NanoProcessor_Debug_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Program_Counter_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Instruction_Decoder_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/PC_Adder_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Program_ROM_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/LUT_16_7_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Address_Selector_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Slow_Clk_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Load_Selector_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Register_Bank_TB.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/RegisterData_Multiplexer_TB.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxnew/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  5 11:56:15 2026...
+host.
+ Targets(s) ", jsn-Basys3-210183A8AA38A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To dWARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+add_files -norecurse {C:/Users/USER/Downloads/Nano_basic_nim/src/Slow_Clk.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Register_Bank.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Add_Sub_4.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Load_Selector.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Address_Selector.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/RegisterData_Multiplexer.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Program_Counter.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/NanoProcessor.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Instruction_Decoder.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/PC_Adder.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Program_ROM.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/LUT_16_7.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/LUT_16_7_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Load_Selector_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Add_Sub_4_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Program_ROM_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/RegisterData_Multiplexer_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Address_Selector_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/NanoProcessor_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Register_Bank_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/PC_Adder_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Program_Counter_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Slow_Clk_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Instruction_Decoder_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/InstructionDecoder_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/NanoProcessor_Debug_TB.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+add_files -fileset constrs_1 -norecurse C:/Users/USER/Downloads/Nano_basic_nim/src/Nanoprocessor_Const.xdc
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+add_files -norecurse {C:/Users/USER/Downloads/Nano_basic_nim/src/imports/reg_3bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/FA.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Reg.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/RCA_4.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/RCA_3.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/HA.vhd}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/adders.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/BusDefinitions.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/constants.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Adress Selector/Address_Selector.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Adress Selector/Address_Selector.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Add_Subtract Unit/Add_Sub_4.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Package Files/BusDefinitions.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_2_to_4.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_3_to_8.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/FA.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/HA.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Add_Subtract Unit/Add_Sub_4.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Package Files/BusDefinitions.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_2_to_4.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_3_to_8.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/FA.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/HA.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Instruction Deocoder/Instruction_Decoder.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Lookup Table/LUT_16_7.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Load Selector/Load_Selector.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_3bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_4bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_8way_4bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Top File/NanoProcessor.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/PC Adder/PC_Adder.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program Counter/Program_Counter.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/reg_3bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Package Files/constants.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Package Files/adders.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Slow Clock/Slow_Clk.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Bank/Register_Bank.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Data Multiplexer/RegisterData_Multiplexer.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Reg.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_4.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_3.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program ROM/Program_ROM.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Instruction Deocoder/Instruction_Decoder.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Lookup Table/LUT_16_7.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Load Selector/Load_Selector.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_3bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_4bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_8way_4bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Top File/NanoProcessor.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/PC Adder/PC_Adder.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program Counter/Program_Counter.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/reg_3bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Package Files/constants.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Package Files/adders.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Slow Clock/Slow_Clk.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Bank/Register_Bank.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Data Multiplexer/RegisterData_Multiplexer.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Reg.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_4.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_3.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program ROM/Program_ROM.vhd}}
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-Basys3-210183A8AA38A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Tue May  5 11:49:28 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+close_hw
+add_files -norecurse {{C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/BusDefinitions.vhd}}
+WARNING: [filemgmt 56-12] File 'C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/BusDefinitions.vhd' cannot be added to the project because it already exists in the project, skipping this file
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Tue May  5 11:51:33 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Constraint File/Nanoprocessor_Const.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/USER/Downloads/Nanoprocessor/Constraint File/Nanoprocessor_Const.xdc}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Tue May  5 11:52:20 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue May  5 11:53:15 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2611.812 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2611.812 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2767.742 ; gain = 942.090
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue May  5 11:55:10 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
