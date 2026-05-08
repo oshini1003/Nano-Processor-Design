@@ -12,23 +12,6 @@ entity Load_Selector is
 end Load_Selector;
 
 architecture Behavioral of Load_Selector is
-    -- Component declaration for 2-way 4-bit MUX
-    component Mux_2way_4bit
-        Port (
-            Input_0 : in  STD_LOGIC_VECTOR(3 downto 0);
-            Input_1 : in  STD_LOGIC_VECTOR(3 downto 0);
-            Sel     : in  STD_LOGIC;
-            Output  : out STD_LOGIC_VECTOR(3 downto 0)
-        );
-    end component;
-    
 begin
-    -- Instantiate the 2-way 4-bit MUX
-    DataSourceMux: Mux_2way_4bit port map (
-        Input_1 => RegisterValue,     -- When LoadSelect=1, use register value
-        Input_0 => ImmediateValue,    -- When LoadSelect=0, use immediate value
-        Sel     => LoadSelect,
-        Output  => OutputData
-    );
-    
+    OutputData <= ImmediateValue when LoadSelect = '0' else RegisterValue;
 end Behavioral;

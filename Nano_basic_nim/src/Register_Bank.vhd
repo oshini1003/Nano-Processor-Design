@@ -13,115 +13,33 @@ entity Register_Bank is
 end Register_Bank;
 
 architecture Behavioral of Register_Bank is
-    -- Component declarations
-    component Decoder_3_to_8
-        Port (
-            I  : in  STD_LOGIC_VECTOR (2 downto 0);
-            EN : in  STD_LOGIC;
-            Y  : out STD_LOGIC_VECTOR (7 downto 0)
-        );
-    end component;
-    
-    component Reg 
-        Port (
-            D   : in  STD_LOGIC_VECTOR(3 downto 0);
-            Res : in  STD_LOGIC;
-            En  : in  STD_LOGIC;
-            Clk : in  STD_LOGIC;
-            Q   : out STD_LOGIC_VECTOR(3 downto 0)
-        );
-    end component;
-    
-    -- Internal signals
-    signal Reg_Sel : STD_LOGIC_VECTOR(7 downto 0);  -- One-hot register selection signals
-    
+    type GPRegisterFile is array (7 downto 1) of DataBus;
+    signal Registers_1_to_7 : GPRegisterFile := (others => (others => '0'));
 begin
-    -- Address decoder - converts 3-bit address to one-hot selection
-    Decoder_3_to_8_0 : Decoder_3_to_8
-        port map(
-            I  => Reg_En,
-            EN => '1',        -- Always enabled
-            Y  => Reg_Sel
-        );
-        
-    -- Register 0 - Always contains zero
-    Zero_Register : Reg
-        port map(
-            D   => "0000",    -- Hardwired to zero
-            Res => Reset,
-            En  => '1',       -- Always enabled
-            Clk => Clock,
-            Q   => Register_Outputs(0)
-        );
-    
-    -- Registers 1-7 - General purpose registers
-Register_1 : Reg
-        port map(
-            D   => Data,         -- Data input
-            Res => Reset,        -- Reset signal
-            En  => Reg_Sel(1),   -- Enable for Register 1
-            Clk => Clock,        -- Clock signal
-            Q   => Register_Outputs(1)
-        );
-    
-    -- Register 2
-    Register_2 : Reg
-        port map(
-            D   => Data,         -- Data input
-            Res => Reset,        -- Reset signal
-            En  => Reg_Sel(2),   -- Enable for Register 2
-            Clk => Clock,        -- Clock signal
-            Q   => Register_Outputs(2)
-        );
-    
-    -- Register 3
-    Register_3 : Reg
-        port map(
-            D   => Data,         -- Data input
-            Res => Reset,        -- Reset signal
-            En  => Reg_Sel(3),   -- Enable for Register 3
-            Clk => Clock,        -- Clock signal
-            Q   => Register_Outputs(3)
-        );
-    
-    -- Register 4
-    Register_4 : Reg
-        port map(
-            D   => Data,         -- Data input
-            Res => Reset,        -- Reset signal
-            En  => Reg_Sel(4),   -- Enable for Register 4
-            Clk => Clock,        -- Clock signal
-            Q   => Register_Outputs(4)
-        );
-    
-    -- Register 5
-    Register_5 : Reg
-        port map(
-            D   => Data,         -- Data input
-            Res => Reset,        -- Reset signal
-            En  => Reg_Sel(5),   -- Enable for Register 5
-            Clk => Clock,        -- Clock signal
-            Q   => Register_Outputs(5)
-        );
-    
-    -- Register 6
-    Register_6 : Reg
-        port map(
-            D   => Data,         -- Data input
-            Res => Reset,        -- Reset signal
-            En  => Reg_Sel(6),   -- Enable for Register 6
-            Clk => Clock,        -- Clock signal
-            Q   => Register_Outputs(6)
-        );
-    
-    -- Register 7
-    Register_7 : Reg
-        port map(
-            D   => Data,         -- Data input
-            Res => Reset,        -- Reset signal
-            En  => Reg_Sel(7),   -- Enable for Register 7
-            Clk => Clock,        -- Clock signal
-            Q   => Register_Outputs(7)
-        );
-    
+    process (Clock, Reset)
+    begin
+        if Reset = '1' then
+            Registers_1_to_7 <= (others => (others => '0'));
+        elsif rising_edge(Clock) then
+            case Reg_En is
+                when "001" => Registers_1_to_7(1) <= Data;
+                when "010" => Registers_1_to_7(2) <= Data;
+                when "011" => Registers_1_to_7(3) <= Data;
+                when "100" => Registers_1_to_7(4) <= Data;
+                when "101" => Registers_1_to_7(5) <= Data;
+                when "110" => Registers_1_to_7(6) <= Data;
+                when "111" => Registers_1_to_7(7) <= Data;
+                when others => null; -- "000" keeps R0 hardwired to zero / no write
+            end case;
+        end if;
+    end process;
+
+    Register_Outputs(0) <= (others => '0');
+    Register_Outputs(1) <= Registers_1_to_7(1);
+    Register_Outputs(2) <= Registers_1_to_7(2);
+    Register_Outputs(3) <= Registers_1_to_7(3);
+    Register_Outputs(4) <= Registers_1_to_7(4);
+    Register_Outputs(5) <= Registers_1_to_7(5);
+    Register_Outputs(6) <= Registers_1_to_7(6);
+    Register_Outputs(7) <= Registers_1_to_7(7);
 end Behavioral;
