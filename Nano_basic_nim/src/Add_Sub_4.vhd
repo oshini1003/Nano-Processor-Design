@@ -18,18 +18,18 @@ architecture Behavioral of Add_Sub_4_bit is
     signal Temp_Result : DataBus;
 begin
     process (Input_A, Input_B, Mode_Sel)
-        variable A_S, B_S, R_S : signed(3 downto 0);
+        variable A_Signed, B_Signed, Result_Signed : signed(3 downto 0);
     begin
-        A_S := signed(Input_A);
-        B_S := signed(Input_B);
+        A_Signed := signed(Input_A);
+        B_Signed := signed(Input_B);
 
         if Mode_Sel = '0' then
-            R_S := A_S + B_S;
+            Result_Signed := A_Signed + B_Signed;
         else
-            R_S := A_S - B_S;
+            Result_Signed := A_Signed - B_Signed;
         end if;
 
-        Temp_Result <= std_logic_vector(R_S);
+        Temp_Result <= std_logic_vector(Result_Signed);
     end process;
     
     -- Process to determine if result is zero
