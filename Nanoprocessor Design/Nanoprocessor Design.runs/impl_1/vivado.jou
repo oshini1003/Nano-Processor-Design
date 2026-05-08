@@ -2,11 +2,11 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Thu Apr 30 15:12:40 2026
-# Process ID: 8852
+# Start of session at: Tue May  5 11:31:07 2026
+# Process ID: 2944
 # Current directory: C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.runs/impl_1
-# Command line: vivado.exe -log Nano_processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Nano_processor.tcl -notrace
-# Log file: C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.runs/impl_1/Nano_processor.vdi
+# Command line: vivado.exe -log Decoder_2_to_4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Decoder_2_to_4.tcl -notrace
+# Log file: C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.runs/impl_1/Decoder_2_to_4.vdi
 # Journal file: C:/Users/DELL/Desktop/Nano-Processor-Design/Nanoprocessor Design/Nanoprocessor Design.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source Nano_processor.tcl -notrace
+source Decoder_2_to_4.tcl -notrace

@@ -147,7 +147,7 @@ begin
         Load_Select => load_select, Immediate => value, S => A0, Value_In => Write_Data );
         
     -- 8. 7-Segment Display
-    LUT_7Seg1 : LUT_7Seg port map( Address => out3, Data => Data );
+    LUT_7Seg1 : LUT_7Seg port map( Address => out7, Data => Data );
 
     -- Final Outputs
     overflow_final <= overflow;

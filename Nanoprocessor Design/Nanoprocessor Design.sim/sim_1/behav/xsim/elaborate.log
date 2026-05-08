@@ -1,6 +1,6 @@
 Vivado Simulator 2018.1
 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
-Running: C:/Users/DELL/Desktop/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 617752e5099a40a7b7250529171906e2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Nano_processor_behav xil_defaultlib.tb_Nano_processor -log elaborate.log 
+Running: C:/Users/DELL/Desktop/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 617752e5099a40a7b7250529171906e2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Decoder_2_to_4_behav xil_defaultlib.TB_Decoder_2_to_4 -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,20 +10,6 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
-Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
-Compiling architecture behavioral of entity xil_defaultlib.Counter [counter_default]
-Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_8_W_4_B [mux_8_w_4_b_default]
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_4_bit [register_4_bit_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_Memory [register_memory_default]
-Compiling architecture behavioral of entity xil_defaultlib.Add_Sub_4bit_unit [add_sub_4bit_unit_default]
-Compiling architecture behavioral of entity xil_defaultlib.w2_4_MUX [w2_4_mux_default]
-Compiling architecture behavioral of entity xil_defaultlib.LUT_7Seg [lut_7seg_default]
-Compiling architecture behavioral of entity xil_defaultlib.Top_Module [top_module_default]
-Compiling architecture behavioral of entity xil_defaultlib.Nano_processor [nano_processor_default]
-Compiling architecture behavioral of entity xil_defaultlib.tb_nano_processor
-Built simulation snapshot tb_Nano_processor_behav
+Compiling architecture behavioral of entity xil_defaultlib.tb_decoder_2_to_4
+Built simulation snapshot TB_Decoder_2_to_4_behav

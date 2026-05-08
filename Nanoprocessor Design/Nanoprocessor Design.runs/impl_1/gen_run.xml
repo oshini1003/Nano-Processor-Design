@@ -1,88 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1777542150">
-  <File Type="PWROPT-DCP" Name="Nano_processor_pwropt.dcp"/>
-  <File Type="ROUTE-PWR" Name="Nano_processor_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="Nano_processor.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="Nano_processor_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="Nano_processor_reports.tcl"/>
-  <File Type="BG-DRC" Name="Nano_processor.drc"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Nano_processor_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="Nano_processor_timing_summary_init.rpt"/>
-  <File Type="OPT-HWDEF" Name="Nano_processor.hwdef"/>
-  <File Type="OPT-DCP" Name="Nano_processor_opt.dcp"/>
-  <File Type="OPT-DRC" Name="Nano_processor_drc_opted.rpt"/>
-  <File Type="OPT-TIMING" Name="Nano_processor_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DRC" Name="Nano_processor_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Nano_processor_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="Nano_processor_placed.dcp"/>
-  <File Type="PLACE-IO" Name="Nano_processor_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Nano_processor_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="Nano_processor_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="Nano_processor_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="Nano_processor_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Nano_processor_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="Nano_processor_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="Nano_processor_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Nano_processor_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Nano_processor_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="Nano_processor_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Nano_processor_drc_physopted.rpt"/>
-  <File Type="BG-BIT" Name="Nano_processor.bit"/>
-  <File Type="PHYSOPT-TIMING" Name="Nano_processor_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Nano_processor_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="Nano_processor_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Nano_processor_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="Nano_processor_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="Nano_processor_drc_routed.pb"/>
-  <File Type="BITSTR-MSK" Name="Nano_processor.msk"/>
-  <File Type="ROUTE-DRC-RPX" Name="Nano_processor_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="Nano_processor.bgn"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Nano_processor_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-RBT" Name="Nano_processor.rbt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Nano_processor_methodology_drc_routed.rpx"/>
-  <File Type="BG-BIN" Name="Nano_processor.bin"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Nano_processor_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="Nano_processor_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="Nano_processor_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="Nano_processor_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="Nano_processor_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="Nano_processor_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="Nano_processor_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="Nano_processor_incremental_reuse_routed.rpt"/>
-  <File Type="RDI-RDI" Name="Nano_processor.vdi"/>
-  <File Type="ROUTE-CLK" Name="Nano_processor_clock_utilization_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Nano_processor_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Nano_processor_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Nano_processor_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Nano_processor_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Nano_processor_timing_summary_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="Nano_processor.nky"/>
-  <File Type="BITSTR-BMM" Name="Nano_processor_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="Nano_processor.mmi"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1777960857">
+  <File Type="PWROPT-DCP" Name="Decoder_2_to_4_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Decoder_2_to_4_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Decoder_2_to_4.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Decoder_2_to_4_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Decoder_2_to_4_reports.tcl"/>
+  <File Type="BG-DRC" Name="Decoder_2_to_4.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Decoder_2_to_4_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Decoder_2_to_4_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Decoder_2_to_4.hwdef"/>
+  <File Type="OPT-DCP" Name="Decoder_2_to_4_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Decoder_2_to_4_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Decoder_2_to_4_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Decoder_2_to_4_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Decoder_2_to_4_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Decoder_2_to_4_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Decoder_2_to_4_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Decoder_2_to_4_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Decoder_2_to_4_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Decoder_2_to_4_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Decoder_2_to_4_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Decoder_2_to_4_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Decoder_2_to_4_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Decoder_2_to_4_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Decoder_2_to_4_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Decoder_2_to_4_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Decoder_2_to_4_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Decoder_2_to_4_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Decoder_2_to_4.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Decoder_2_to_4_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Decoder_2_to_4_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Decoder_2_to_4_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Decoder_2_to_4_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Decoder_2_to_4_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Decoder_2_to_4_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Decoder_2_to_4.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Decoder_2_to_4_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Decoder_2_to_4.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Decoder_2_to_4_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Decoder_2_to_4.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Decoder_2_to_4_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Decoder_2_to_4.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Decoder_2_to_4_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Decoder_2_to_4_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Decoder_2_to_4_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Decoder_2_to_4_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Decoder_2_to_4_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Decoder_2_to_4_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Decoder_2_to_4_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Decoder_2_to_4_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Decoder_2_to_4.vdi"/>
+  <File Type="ROUTE-CLK" Name="Decoder_2_to_4_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Decoder_2_to_4_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Decoder_2_to_4_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Decoder_2_to_4_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Decoder_2_to_4_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Decoder_2_to_4_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Decoder_2_to_4.nky"/>
+  <File Type="BITSTR-BMM" Name="Decoder_2_to_4_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Decoder_2_to_4.mmi"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Nano_processor.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="Nano_processor.sysdef"/>
+  <File Type="BITSTR-LTX" Name="Decoder_2_to_4.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Decoder_2_to_4.sysdef"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/ADD_SUB.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Counter.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/D_FF.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/new/Decoder_2_to_4.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -91,62 +73,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/Decoder_3_to_8.vhd">
       <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Instruction_Decoder.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/LUT_7Seg.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Mux_8_W_4_B.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Register_4_bit.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Register_Memory.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/new/Slow_Clk.vhd">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 7/Lab 7.srcs/sources_1/new/Slow_Clk.vhd"/>
-        <Attr Name="ImportTime" Val="1774281712"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Top_Module.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/w2_4_MUX.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Nano_processor.vhd">
-      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -158,11 +85,9 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/new/AU.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/new/HA.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 7/Lab 7.srcs/sources_1/new/AU.vhd"/>
-        <Attr Name="ImportTime" Val="1774287086"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -174,9 +99,97 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/new/HA.vhd">
+    <File Path="$PSRCDIR/sources_1/new/ADD_SUB.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_FF.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Instruction_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LUT_7Seg.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_8_W_4_B.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Register_4_bit.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Register_Memory.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 7/Lab 7.srcs/sources_1/new/Slow_Clk.vhd"/>
+        <Attr Name="ImportTime" Val="1774281712"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Top_Module.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/w2_4_MUX.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Nano_processor.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/AU.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 7/Lab 7.srcs/sources_1/new/AU.vhd"/>
+        <Attr Name="ImportTime" Val="1774287086"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -243,9 +256,16 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/Program_ROM.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Nano_processor"/>
+      <Option Name="TopModule" Val="Decoder_2_to_4"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

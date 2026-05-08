@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log Nano_processor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nano_processor.tcl" );
+         "-log Decoder_2_to_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder_2_to_4.tcl" );
 
 
 
