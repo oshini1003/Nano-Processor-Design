@@ -12,22 +12,13 @@ entity Program_Counter is
 end Program_Counter;
 
 architecture Behavioral of Program_Counter is
-    component reg_3bit
-        Port (
-            D   : in  STD_LOGIC_VECTOR(2 downto 0);
-            Res : in  STD_LOGIC;
-            En  : in  STD_LOGIC;
-            Clk : in  STD_LOGIC;
-            Q   : out STD_LOGIC_VECTOR(2 downto 0)
-        );
-    end component; 
 begin
-    PC_Register : reg_3bit
-        port map(
-            D   => PC_Next,
-            Res => Res, 
-            En  => '1',
-            Clk => Clk, 
-            Q   => PC_Current
-        );
+    process (Clk, Res)
+    begin
+        if Res = '1' then
+            PC_Current <= (others => '0');
+        elsif rising_edge(Clk) then
+            PC_Current <= PC_Next;
+        end if;
+    end process;
 end Behavioral;
