@@ -12,20 +12,6 @@ entity Address_Selector is
 end entity Address_Selector;
 
 architecture Behavioral of Address_Selector is
-    component Mux_2way_3bit is
-        port (
-            Input_0 : in  STD_LOGIC_VECTOR(2 downto 0); -- First 3-bit input
-            Input_1 : in  STD_LOGIC_VECTOR(2 downto 0); -- Second 3-bit input
-            Sel     : in  STD_LOGIC;                    -- Selection control (1 bit for 2 inputs)
-            Output  : out STD_LOGIC_VECTOR(2 downto 0)  -- 3-bit output
-        );
-    end component Mux_2way_3bit;
 begin
-    Program_Mux : Mux_2way_3bit
-        port map (
-            Input_0 => Sequential_Address,
-            Input_1 => Jump_Address,
-            Sel     => Jump_Enable,
-            Output  => Selected_Address
-        );
+    Selected_Address <= Sequential_Address when Jump_Enable = '0' else Jump_Address;
 end architecture Behavioral;
