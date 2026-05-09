@@ -1,81 +1,62 @@
-## CLOCK INPUT
+## ====================================================================
+## BASYS 3 CONSTRAINTS - NANO PROCESSOR ADVANCED
+## Target: Basys3 (xc7a35tcpg236-1)
+## ====================================================================
 
-# 100 MHz system clock (pin E3 on Artix-7)
-set_property -dict {PACKAGE_PIN W5 IOSTANDARD LVCMOS33} [get_ports clk]
+## CLOCK (100 MHz)
+set_property PACKAGE_PIN W5 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports clk]
 
-## PUSHBUTTON INPUTS
-## ========================================================================
+## RESET (Center Button - BTNC)
+set_property PACKAGE_PIN U18 [get_ports reset_btn]
+set_property IOSTANDARD LVCMOS33 [get_ports reset_btn]
 
-# CPU Reset button (BTNC - center button, pin C12)
-# Active HIGH when pressed (has external pull-down resistor)
-set_property -dict {PACKAGE_PIN C12 IOSTANDARD LVCMOS33} [get_ports reset_btn]
+## LEDs (LD0 - LD15)
+set_property PACKAGE_PIN U16 [get_ports {led[0]}]
+set_property PACKAGE_PIN E19 [get_ports {led[1]}]
+set_property PACKAGE_PIN U19 [get_ports {led[2]}]
+set_property PACKAGE_PIN V19 [get_ports {led[3]}]
+set_property PACKAGE_PIN W18 [get_ports {led[4]}]
+set_property PACKAGE_PIN U15 [get_ports {led[5]}]
+set_property PACKAGE_PIN U14 [get_ports {led[6]}]
+set_property PACKAGE_PIN V14 [get_ports {led[7]}]
+set_property PACKAGE_PIN V13 [get_ports {led[8]}]
+set_property PACKAGE_PIN V3  [get_ports {led[9]}]
+set_property PACKAGE_PIN W3  [get_ports {led[10]}]
+set_property PACKAGE_PIN U3  [get_ports {led[11]}]
+set_property PACKAGE_PIN P3  [get_ports {led[12]}]
+set_property PACKAGE_PIN N3  [get_ports {led[13]}]
+set_property PACKAGE_PIN P1  [get_ports {led[14]}]
+set_property PACKAGE_PIN L1  [get_ports {led[15]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led[*]}]
 
-## LED OUTPUTS (16 LEDs total: LD0-LD15)
-## ========================================================================
+## 7-SEGMENT DISPLAY Cathodes (CA=seg[0] .. CG=seg[6])
+set_property PACKAGE_PIN W7 [get_ports {seg[0]}]
+set_property PACKAGE_PIN W6 [get_ports {seg[1]}]
+set_property PACKAGE_PIN U8 [get_ports {seg[2]}]
+set_property PACKAGE_PIN V8 [get_ports {seg[3]}]
+set_property PACKAGE_PIN U5 [get_ports {seg[4]}]
+set_property PACKAGE_PIN V5 [get_ports {seg[5]}]
+set_property PACKAGE_PIN U7 [get_ports {seg[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg[*]}]
 
-# Lower 8 LEDs (LD0-LD7) - Right side of board
-set_property -dict {PACKAGE_PIN H17 IOSTANDARD LVCMOS33} [get_ports {led[0]}]   # LD0
-set_property -dict {PACKAGE_PIN K15 IOSTANDARD LVCMOS33} [get_ports {led[1]}]   # LD1
-set_property -dict {PACKAGE_PIN J13 IOSTANDARD LVCMOS33} [get_ports {led[2]}]   # LD2
-set_property -dict {PACKAGE_PIN N14 IOSTANDARD LVCMOS33} [get_ports {led[3]}]   # LD3
-set_property -dict {PACKAGE_PIN R18 IOSTANDARD LVCMOS33} [get_ports {led[4]}]   # LD4
-set_property -PACKAGE_PIN V17 -IOSTANDARD LVCMOS33 [get_ports {led[5]}]        # LD5
-set_property -dict {PACKAGE_PIN U17 IOSTANDARD LVCMOS33} [get_ports {led[6]}]   # LD6
-set_property -dict {PACKAGE_PIN U16 IOSTANDARD LVCMOS33} [get_ports {led[7]}]   # LD7
+## 7-SEGMENT ANODES (AN0=an[0] .. AN3=an[3])
+set_property PACKAGE_PIN U2 [get_ports {an[0]}]
+set_property PACKAGE_PIN U4 [get_ports {an[1]}]
+set_property PACKAGE_PIN V4 [get_ports {an[2]}]
+set_property PACKAGE_PIN W4 [get_ports {an[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {an[*]}]
 
-# Upper 8 LEDs (LD8-LD15) - Left side of board
-set_property -dict {PACKAGE_PIN V16 IOSTANDARD LVCMOS33} [get_ports {led[8]}]   # LD8
-set_property -dict {PACKAGE_PIN T15 IOSTANDARD LVCMOS33} [get_ports {led[9]}]   # LD9
-set_property -dict {PACKAGE_PIN U14 IOSTANDARD LVCMOS33} [get_ports {led[10]}]  # LD10
-set_property -dict {PACKAGE_PIN T16 IOSTANDARD LVCMOS33} [get_ports {led[11]}]  # LD11
-set_property -dict {PACKAGE_PIN V15 IOSTANDARD LVCMOS33} [get_ports {led[12]}]  # LD12
-set_property -dict {PACKAGE_PIN M13 IOSTANDARD LVCMOS33} [get_ports {led[13]}]  # LD13
-set_property -dict {PACKAGE_PIN M14 IOSTANDARD LVCMOS33} [get_ports {led[14]}]  # LD14
-set_property -dict {PACKAGE_PIN L18 IOSTANDARD LVCMOS33} [get_ports {led[15]}]  # LD15
+## DEBUG PORTS - PC value (JA PMOD, pins 1-3)
+set_property PACKAGE_PIN J1 [get_ports {pc_debug[0]}]
+set_property PACKAGE_PIN L2 [get_ports {pc_debug[1]}]
+set_property PACKAGE_PIN J2 [get_ports {pc_debug[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pc_debug[*]}]
 
-## 7-SEGMENT DISPLAY (4-digit common anode)
-## ========================================================================
-
-# Segment cathodes (active LOW - illuminate when driven low)
-# Segments: a=W7, b=W6, c=U2, d=U3, e=V3, f=V4, g=U1
-set_property -dict {PACKAGE_PIN W7  IOSTANDARD LVCMOS33} [get_ports {seg[6]}]   # Segment a (top)
-set_property -dict {PACKAGE_PIN W6  IOSTANDARD LVCMOS33} [get_ports {seg[5]}]   # Segment b (upper right)
-set_property -dict {PACKAGE_PIN U2  IOSTANDARD LVCMOS33} [get_ports {seg[4]}]   # Segment c (lower right)
-set_property -dict {PACKAGE_PIN U3  IOSTANDARD LVCMOS33} [get_ports {seg[3]}]   # Segment d (bottom)
-set_property -dict {PACKAGE_PIN V3  IOSTANDARD LVCMOS33} [get_ports {seg[2]}]   # Segment e (lower left)
-set_property -dict {PACKAGE_PIN V4  IOSTANDARD LVCMOS33} [get_ports {seg[1]}]   # Segment f (upper left)
-set_property -dict {PACKAGE_PIN U1  IOSTANDARD LVCMOS33} [get_ports {seg[0]}]   # Segment g (middle)
-
-# Digit anode controls (active LOW - digit enabled when driven low)
-set_property -dict {PACKAGE_PIN W4  IOSTANDARD LVCMOS33} [get_ports {an[0]}]    # Digit 0 (rightmost)
-set_property -dict {PACKAGE_PIN V4  IOSTANDARD LVCMOS33} [get_ports {an[1]}]    # Digit 1
-set_property -dict {PACKAGE_PIN U4  IOSTANDARD LVCMOS33} [get_ports {an[2]}]    # Digit 2
-# Note: Digit 3 anode conflicts with segment f above - using alternative mapping
-set_property -dict {PACKAGE_PIN U2  IOSTANDARD LVCMOS33} [get_ports {an[3]}]    # Digit 3 (leftmost)
-
-
-## OPTIONAL DEBUG OUTPUTS (for oscilloscope/logic analyzer)
-## Connect these to Pmod headers or spare pins if needed
-## ========================================================================
-
-# PC value output (3 bits)
-set_property -dict {PACKAGE_PIN J1  IOSTANDARD LVCMOS33} [get_ports {pc_debug[0]}]
-set_property -dict {PACKAGE_PIN L1  IOSTANDARD LVCMOS33} [get_ports {pc_debug[1]}]
-set_property -dict {PACKAGE_PIN M2  IOSTANDARD LVCMOS33} [get_ports {pc_debug[2]}]
-
-# R1 value output (4 bits)
-set_property -dict {PACKAGE_PIN K2  IOSTANDARD LVCMOS33} [get_ports {r1_debug[0]}]
-set_property -dict {PACKAGE_PIN H1  IOSTANDARD LVCMOS33} [get_ports {r1_debug[1]}]
-set_property -dict {PACKAGE_PIN E2  IOSTANDARD LVCMOS33} [get_ports {r1_debug[2]}]
-set_property -dict {PACKAGE_PIN F2  IOSTANDARD LVCMOS33} [get_ports {r1_debug[3]}]
-
-## ========================================================================
-## TIMING CONSTRAINTS (important for reliable operation)
-## ========================================================================
-
-# Primary clock constraint: 100 MHz onboard oscillator
-create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} [get_ports clk]
-
-## ========================================================================
-## END OF CONSTRAINT FILE
-## ============================================================================
+## DEBUG PORTS - R7 value (JA PMOD, pins 4-7)
+set_property PACKAGE_PIN G2 [get_ports {r7_debug[0]}]
+set_property PACKAGE_PIN H1 [get_ports {r7_debug[1]}]
+set_property PACKAGE_PIN K2 [get_ports {r7_debug[2]}]
+set_property PACKAGE_PIN H2 [get_ports {r7_debug[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {r7_debug[*]}]

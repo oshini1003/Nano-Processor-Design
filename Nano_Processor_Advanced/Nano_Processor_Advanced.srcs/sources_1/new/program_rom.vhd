@@ -1,33 +1,23 @@
 ----------------------------------------------------------------------------------
 -- Company: UOM - CSE'24 - GROUP 45
--- Engineer: Kethmika K A D Y
--- 
--- Create Date: 05/07/2026 02:36:28 PM
--- Design Name: 
 -- Module Name: program_rom - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+--
+-- PROGRAM: Sequential demo - shows ADD then subtraction, then HALTS.
+--
+--   Addr 0: MOVI R1, 5    -> R1 = 5
+--   Addr 1: MOVI R2, 3    -> R2 = 3
+--   Addr 2: ADD  R1, R2   -> R1 = 5 + 3 = 8   (ADDITION)
+--   Addr 3: MOVI R3, 8    -> R3 = 8            (save result)
+--   Addr 4: NEG  R2       -> R2 = -3 = F       (NEGATION)
+--   Addr 5: ADD  R3, R2   -> R3 = 8 + (-3) = 5 (SUBTRACTION)
+--   Addr 6: JZR  R0, 6    -> HALT forever
+--   Addr 7: NOP
+--
+-- Display at HALT (left to right): [ PC=6 | R3=5 | R1=8 | R2=F ]
+-- Instruction format: opcode[11:10] | RA[9:7] | RB[6:4] | imm[3:0]
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity program_rom is
     port (
@@ -39,27 +29,16 @@ end program_rom;
 architecture rtl of program_rom is
     type rom_array_t is array (0 to 7) of std_logic_vector(11 downto 0);
 
-    -- PROGRAM: Demonstrate all instructions with countdown loop
-
-    -- Address 0: MOVI R1, 10   ; Initialize R1 = 10 (decimal)
-    -- Address 1: MOVI R2, 1    ; Initialize R2 = 1
-    -- Address 2: NEG R2        ; Negate R2 -> R2 = -1 (1111 binary)
-    -- Address 3: ADD R1, R2    ; R1 = R1 + R2 (decrement by 1)
-    -- Address 4: JZR R1, 7     ; If R1==0, jump to address 7 (end)
-    -- Address 5: JZR R0, 3     ; If R0==0 (always true!), loop back to 3
-    -- Address 6: (unused/reachable only via error)
-    -- Address 7: NOP/HALT      ; End of program
-
-    
     constant ROM_CONTENTS : rom_array_t := (
-        0  => "100010000010",  -- MOVI R1, 10  (opcode=10, RA=001, imm=1010)
-        1  => "100100000001",  -- MOVI R2, 1   (opcode=10, RA=010, imm=0001)
-        2  => "010010000000",  -- NEG R2       (opcode=01, RA=010)
-        3  => "000010010000",  -- ADD R1,R2    (opcode=00, RA=001, RB=010)
-        4  => "110010000111",  -- JZR R1,7     (opcode=11, RA=001, addr=111)
-        5  => "110000000011",  -- JZR R0,3     (opcode=11, RA=000, addr=011)
-        6  => "000000000000",  -- NOP (padding)
-        7  => "000000000000"   -- NOP / HALT point
+        -- op    RA    RB    imm4
+        0 => "10" & "001" & "000" & "0101",  -- MOVI R1, 5
+        1 => "10" & "010" & "000" & "0011",  -- MOVI R2, 3
+        2 => "00" & "001" & "010" & "0000",  -- ADD  R1, R2  -> 5+3=8
+        3 => "10" & "011" & "000" & "1000",  -- MOVI R3, 8
+        4 => "01" & "010" & "000" & "0000",  -- NEG  R2      -> R2=-3=F
+        5 => "00" & "011" & "010" & "0000",  -- ADD  R3, R2  -> 8+(-3)=5
+        6 => "11" & "000" & "000" & "0110",  -- JZR  R0, 6   -> HALT
+        7 => "00" & "000" & "000" & "0000"   -- NOP
     );
 
 begin

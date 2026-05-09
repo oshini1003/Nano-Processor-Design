@@ -1,0 +1,1 @@
+-wto "65d2ac423e3f4ad0a5ccf3147d4c51dd" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "RegisterData_Multiplexer_TB_behav" "xil_defaultlib.RegisterData_Multiplexer_TB" -log "elaborate.log" 

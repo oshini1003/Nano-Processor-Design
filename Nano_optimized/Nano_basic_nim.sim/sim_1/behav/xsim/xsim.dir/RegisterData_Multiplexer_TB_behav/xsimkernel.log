@@ -1,0 +1,7 @@
+Running: xsim.dir/RegisterData_Multiplexer_TB_behav/xsimk.exe -simmode gui -wdb RegisterData_Multiplexer_TB_behav.wdb -simrunnum 0 -socket 59623
+Design successfully loaded
+Design Loading Memory Usage: 8604 KB (Peak: 8604 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9196 KB (Peak: 9196 KB)
+Simulation CPU Usage: 0 ms

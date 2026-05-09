@@ -1,0 +1,2289 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 3900
+License: Customer
+
+Current time: 	Fri May 08 17:16:41 IST 2026
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 107 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinxnew/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinxnew/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinxnew/Vivado
+HDI_APPROOT: C:/Xilinxnew/Vivado/2018.1
+RDI_DATADIR: C:/Xilinxnew/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinxnew/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinxnew/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado.log
+Vivado journal file location: 	C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado.jou
+Engine tmp dir: 	C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/.Xil/Vivado-3900-DESKTOP-R7EP7AC
+
+GUI allocated memory:	179 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 627 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 51 MB (+51162kb) [00:00:09]
+// [Engine Memory]: 529 MB (+403003kb) [00:00:09]
+// Opening Vivado Project: C:\Users\USER\OneDrive\Desktop\GithubFiles\Nano-Processor-Design\Nano_basic_nim\Nano_basic_nim.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 MB (+9143kb) [00:00:11]
+// [Engine Memory]: 603 MB (+50340kb) [00:00:11]
+// Tcl Message: open_project C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxnew/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 87 MB (+21983kb) [00:00:13]
+// [Engine Memory]: 673 MB (+41901kb) [00:00:13]
+// [Engine Memory]: 713 MB (+6307kb) [00:00:14]
+// [GUI Memory]: 93 MB (+2059kb) [00:00:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 40 MB. Current time: 5/8/26 5:16:44 PM IST
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 939.621 ; gain = 187.586 
+// Project name: Nano_basic_nim; location: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim; part: xc7a35tcpg236-1
+// [Engine Memory]: 756 MB (+7129kb) [00:00:15]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ch)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:16:56 2026] Launched synth_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:17:50 2026] Launched impl_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 813 MB. GUI used memory: 40 MB. Current time: 5/8/26 5:18:43 PM IST
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 869 MB (+79404kb) [00:02:17]
+// [Engine Memory]: 1,065 MB (+160160kb) [00:02:22]
+// [Engine Memory]: 1,121 MB (+2629kb) [00:02:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,284 MB. GUI used memory: 39 MB. Current time: 5/8/26 5:18:58 PM IST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,495 MB. GUI used memory: 40 MB. Current time: 5/8/26 5:18:59 PM IST
+// [Engine Memory]: 1,504 MB (+342244kb) [00:02:30]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,661 MB (+85950kb) [00:02:30]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1764.516 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1764.516 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 1929.648 ; gain = 949.215 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dO' command handler elapsed time: 19 seconds
+// Elapsed time: 20 seconds
+dismissDialog("Open Implemented Design"); // bv (ch)
+// [GUI Memory]: 100 MB (+2724kb) [00:02:48]
+// [GUI Memory]: 107 MB (+1771kb) [00:02:50]
+// Elapsed time: 17 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ch)
+// A (ch): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// [GUI Memory]: 118 MB (+5623kb) [00:02:55]
+// bv (ch):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+dismissDialog("Elaborate Design"); // A (ch)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: NanoProcessor 
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,774 MB. GUI used memory: 75 MB. Current time: 5/8/26 5:19:28 PM IST
+// [Engine Memory]: 1,774 MB (+31122kb) [00:02:59]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,798 MB. GUI used memory: 74 MB. Current time: 5/8/26 5:19:29 PM IST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,876 MB (+14279kb) [00:03:00]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1962.504 ; gain = 31.875 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2004.203 ; gain = 73.574 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2004.203 ; gain = 73.574 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2004.203 ; gain = 73.574 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2150.008 ; gain = 219.379 
+// Tcl Message: 90 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2150.008 ; gain = 219.379 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+dismissDialog("Open Elaborated Design"); // bv (ch)
+// Elapsed time: 20 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+floatView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // aw (aE, aG)
+// Elapsed time: 30 seconds
+selectButton(RDIResource.HCornerWorldViewButton_SHOW_WORLD_VIEW, (String) null); // a (e, aG)
+// [GUI Memory]: 124 MB (+542kb) [00:04:03]
+selectButton(RDIResource.HWorldViewOverview_HIDE_WORLD_VIEW, "RDIResource.HCornerWorldViewButton_SHOW_WORLD_VIEW"); // a (e, aG)
+// Elapsed time: 10 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 58 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 81 MB. Current time: 5/8/26 5:21:48 PM IST
+// Elapsed time: 48 seconds
+selectButton(PAResourceQtoS.SchematicView_TOGGLE_AUTOHIDE_PINS_FOR_SELECTED_CELLS, "Schematic_autohidepins"); // u (f, aG): FALSE
+selectButton(PAResourceItoN.NetlistSchematicView_SHOW_IO_PORTS_IN_THIS_SCHEMATIC, "19 I/O Ports"); // h (f, aG)
+selectButton(PAResourceQtoS.SchematicView_TOGGLE_AUTOHIDE_PINS_FOR_SELECTED_CELLS, "Schematic_autohidepins"); // u (f, ch): FALSE
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+floatView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 114 seconds
+selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // B (f, aG)
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "Schematic_select_area"); // u (f, aG): TRUE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+typeControlKey(null, null, 'z');
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION, (String) null); // u (f, aG): TRUE
+// Run Command: PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION
+selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // B (f, aG)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (f, aG)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (f, aG)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (f, aG)
+// Elapsed time: 12 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// [GUI Memory]: 131 MB (+530kb) [00:09:01]
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 14 seconds
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (f, aG)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (f, aG)
+// [GUI Memory]: 141 MB (+3477kb) [00:09:28]
+// Elapsed time: 33 seconds
+selectButton((HResource) null, "Schematic_settings"); // u (f, aG): TRUE
+// Elapsed time: 13 seconds
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Inst Equation ; false", 0, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:32 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Fanout For Scalar Pin ; false", 1, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:36 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Setup Slack For Scalar Pin ; false", 2, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:37 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+// [GUI Memory]: 148 MB (+138kb) [00:10:08]
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Fanout For Bus Pin ; false", 3, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:38 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Bus Value ; true", 4, "true", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:39 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Setup Slack For Bus Pin ; false", 5, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:41 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTab(PAResourceQtoS.SchOptionsView_TABBED_PANE, PAResourceQtoS.SchOptionsView_COLORS, "Colors", 1); // i (J, aG)
+selectTab(PAResourceQtoS.SchOptionsView_TABBED_PANE, PAResourceQtoS.SchOptionsView_DISPLAY, "Display", 0); // i (J, aG)
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Autohide pins of primitives ; false", 11, "false", 1); // L (O, aG)
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Autohide pins of primitives ; true", 11, "true", 1); // L (O, aG)
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Autohide pins of primitives ; false", 11, "false", 1); // L (O, aG)
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Autohide pins of primitives ; true", 11, "true", 1); // L (O, aG)
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Bus Value ; false", 4, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:52 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Inst Equation ; true", 0, "true", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:58 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Fanout For Scalar Pin ; true", 1, "true", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:26:59 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Setup Slack For Scalar Pin ; true", 2, "true", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:00 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Setup Slack For Scalar Pin ; false", 2, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Fanout For Bus Pin ; true", 3, "true", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Setup Slack For Scalar Pin ; true", 2, "true", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:02 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Setup Slack For Bus Pin ; true", 5, "true", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:04 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_ATTRIBUTES_TABLE, "Setup Slack For Bus Pin ; false", 5, "false", 1); // L (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:05 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: cannot find inst Q_internal_reg[3:0] in mod Reg (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectButton(RDIResource.DefaultOptionPane_CLOSE, (String) null); // B (i, aG)
+// Elapsed time: 18 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 13 seconds
+selectButton((HResource) null, "Schematic_settings"); // u (f, aG): TRUE
+selectTab(PAResourceQtoS.SchOptionsView_TABBED_PANE, PAResourceQtoS.SchOptionsView_COLORS, "Colors", 1); // i (J, aG)
+selectTable(PAResourceQtoS.SchOptionsView_COLORS, "Nets ; java.awt.Color[r=25,g=180,b=0]", 7, "java.awt.Color[r=25,g=180,b=0]", 1); // s (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:50 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_COLORS, "Buses ; java.awt.Color[r=0,g=128,b=0]", 8, "java.awt.Color[r=0,g=128,b=0]", 1); // s (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:27:55 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_COLORS, "Buses ; java.awt.Color[r=0,g=255,b=255]", 8, "java.awt.Color[r=0,g=255,b=255]", 1); // s (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:01 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_COLORS, "Buses ; java.awt.Color[r=204,g=255,b=204]", 8, "java.awt.Color[r=204,g=255,b=204]", 1); // s (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:06 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+selectTable(PAResourceQtoS.SchOptionsView_COLORS, "Port text ; java.awt.Color[r=0,g=0,b=0]", 6, "java.awt.Color[r=0,g=0,b=0]", 1); // s (O, aG)
+selectTable(PAResourceQtoS.SchOptionsView_COLORS, "Nets ; java.awt.Color[r=204,g=255,b=204]", 7, "java.awt.Color[r=204,g=255,b=204]", 1); // s (O, aG)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Fri May 08 17:28:13 IST 2026
+# Process ID: 3900
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+de.concept.nlview.NlviewException: attribute @cell: -format without value not supported for non-existing attr (See C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado_pid3900.debug)
+*/
+// Elapsed time: 14 seconds
+selectButton(RDIResource.DefaultOptionPane_CLOSE, (String) null); // B (i, aG)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 26 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: close view
+closeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+// [GUI Memory]: 156 MB (+943kb) [00:12:38]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:29:14 2026] Launched synth_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 154 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:31:51 2026] Launched impl_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: close view
+// Elapsed time: 18 seconds
+closeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,955 MB. GUI used memory: 97 MB. Current time: 5/8/26 5:32:44 PM IST
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 83 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Reloading : addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: current_design impl_1 
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 85 MB. Current time: 5/8/26 5:33:34 PM IST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,966 MB. GUI used memory: 85 MB. Current time: 5/8/26 5:33:34 PM IST
+// Tcl Message: refresh_design 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 81 MB. Current time: 5/8/26 5:33:35 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2185.434 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2185.434 ; gain = 0.000 
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+dismissDialog("Reloading"); // bv (ch)
+// Elapsed time: 511 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_PC : Program_Counter(Behavioral) (Program_Counter.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_PC : Program_Counter(Behavioral) (Program_Counter.vhd)]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_PC : Program_Counter(Behavioral) (Program_Counter.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_PC : Program_Counter(Behavioral) (Program_Counter.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_PC : Program_Counter(Behavioral) (Program_Counter.vhd)]", 3, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top Program_Counter [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:42:41 2026] Launched synth_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 49 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:43:32 2026] Launched impl_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 52 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Reloading : addNotify
+// TclEventType: DESIGN_REFRESH
+// TclEventType: TIMING_RESULTS_UNLOAD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 91 MB. Current time: 5/8/26 5:44:26 PM IST
+// Engine heap size: 1,966 MB. GUI used memory: 92 MB. Current time: 5/8/26 5:44:26 PM IST
+// Tcl Message: refresh_design 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 88 MB. Current time: 5/8/26 5:44:27 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2188.551 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2188.551 ; gain = 0.000 
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+dismissDialog("Reloading"); // bv (ch)
+// Elapsed time: 76 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ch)
+// TclEventType: CURR_DESIGN_SET
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Tcl Message: current_design rtl_1 
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ch)
+// bv (ch):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 96 MB. Current time: 5/8/26 5:45:55 PM IST
+// Engine heap size: 1,966 MB. GUI used memory: 97 MB. Current time: 5/8/26 5:45:55 PM IST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2199.141 ; gain = 10.590 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2232.000 ; gain = 43.449 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2232.000 ; gain = 43.449 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2232.000 ; gain = 43.449 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 91 MB. Current time: 5/8/26 5:45:56 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2244.395 ; gain = 55.844 
+// M (ch): Critical Messages: addNotify
+dismissDialog("Reloading"); // bv (ch)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (ch)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+// Elapsed time: 197 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_RegBank : Register_Bank(Behavioral) (Register_Bank.vhd)]", 10, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_RegBank : Register_Bank(Behavioral) (Register_Bank.vhd)]", 10, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_RegBank : Register_Bank(Behavioral) (Register_Bank.vhd)]", 10, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_RegBank : Register_Bank(Behavioral) (Register_Bank.vhd)]", 10, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top Register_Bank [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:50:08 2026] Launched synth_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 35 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May  8 17:50:46 2026] Launched impl_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// ah (ch): Implementation Failed: addNotify
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_RegBank : Register_Bank(Behavioral) (Register_Bank.vhd)]", 10, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), U_RegBank : Register_Bank(Behavioral) (Register_Bank.vhd)]", 10, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 53 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-58] IO placement is infeasible. Number of unplaced terminals (3) is greater than number of available sites (0).. The following are banks with available pins: .  IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 3 sites.. 	Term: Reg_En[0]. 	Term:  Reg_En[1]. 	Term:  and Reg_En[2]. . . ]", 10, true); // ah (O, ch) - Node
+typeControlKey(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 'a'); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-58] IO placement is infeasible. Number of unplaced terminals (3) is greater than number of available sites (0).. The following are banks with available pins: .  IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 3 sites.. 	Term: Reg_En[0]. 	Term:  Reg_En[1]. 	Term:  and Reg_En[2]. . . ]", 10, true); // ah (O, ch) - Node
+// Elapsed time: 39 seconds
+selectCodeEditor("Register_Bank.vhd", 173, 60); // cd (w, ch)
+typeControlKey((HResource) null, "Register_Bank.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Register_Bank.vhd", 173, 60); // cd (w, ch)
+// Elapsed time: 64 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nanoprocessor_Const.xdc]", 17, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nanoprocessor_Const.xdc]", 17, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("Nanoprocessor_Const.xdc", 86, 73); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor_Const.xdc", 'c'); // cd (w, ch)
+selectCodeEditor("Nanoprocessor_Const.xdc", 86, 73); // cd (w, ch)
+// Elapsed time: 356 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ch)
+// bv (ch):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2244.395 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 103 MB. Current time: 5/8/26 6:00:20 PM IST
+// Engine heap size: 1,966 MB. GUI used memory: 104 MB. Current time: 5/8/26 6:00:20 PM IST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2244.395 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2244.395 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2244.395 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 122 MB. Current time: 5/8/26 6:00:20 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2324.684 ; gain = 80.289 
+// M (ch): Critical Messages: addNotify
+dismissDialog("Reloading"); // bv (ch)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (ch)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 90 MB. Current time: 5/8/26 6:52:27 PM IST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 3620 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top NanoProcessor [current_fileset] 
+// bv (ch):  Set as Top : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May  8 19:01:13 2026] Launched synth_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 59 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May  8 19:02:15 2026] Launched impl_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 53 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// TclEventType: CURR_DESIGN_SET
+// bv (ch):  Reloading : addNotify
+// Tcl Message: current_design impl_1 
+// TclEventType: DESIGN_REFRESH
+// TclEventType: TIMING_RESULTS_UNLOAD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 86 MB. Current time: 5/8/26 7:03:10 PM IST
+// Engine heap size: 1,966 MB. GUI used memory: 87 MB. Current time: 5/8/26 7:03:11 PM IST
+// Tcl Message: refresh_design 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 84 MB. Current time: 5/8/26 7:03:12 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2324.684 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2324.684 ; gain = 0.000 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+dismissDialog("Reloading"); // bv (ch)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ch)
+// TclEventType: CURR_DESIGN_SET
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Tcl Message: current_design rtl_1 
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ch)
+// bv (ch):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2324.684 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 95 MB. Current time: 5/8/26 7:03:40 PM IST
+// Engine heap size: 1,966 MB. GUI used memory: 96 MB. Current time: 5/8/26 7:03:40 PM IST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2324.684 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2324.684 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2324.684 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 93 MB. Current time: 5/8/26 7:03:41 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2380.867 ; gain = 56.184 
+dismissDialog("Reloading"); // bv (ch)
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 36); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 36); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 37, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bv (ch)
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A 
+// bv (ch):  Auto Connect : addNotify
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bv (ch)
+// Elapsed time: 17 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+dismissDialog("Program Device"); // bB (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri May  8 19:04:31 2026] Launched impl_1... Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ch): Bitstream Generation Completed: addNotify
+// Elapsed time: 48 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ch)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bv (ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Program_Counter.vhd", 232, 277); // cd (w, ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ch)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bv (ch)
+// Elapsed time: 22 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ch)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bv (ch)
+// Elapsed time: 62 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ch)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bv (ch)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8AA38A 
+// n (ch): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 61 seconds
+dismissDialog("Close Hardware Target"); // n (ch)
+// [GUI Memory]: 164 MB (+446kb) [02:07:17]
+// Elapsed time: 1266 seconds
+selectView(PAResourceOtoP.PAViews_FLOW_NAVIGATOR, "Flow Navigator", 75, 75, 243, 711, false, false, false, true, false); // D (cd, ch) - Popup Trigger
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,966 MB. GUI used memory: 109 MB. Current time: 5/8/26 7:33:47 PM IST

@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed May  6 09:46:07 2026
+# Process ID: 9764
+# Current directory: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28136 C:\Users\USER\OneDrive\Desktop\GithubFiles\Nano-Processor-Design\Nano_basic_nim\Nano_basic_nim.xpr
+# Log file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado.log
+# Journal file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/USER/Downloads/Nano_basic_nim' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/NanoProcessor_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/NanoProcessor_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Add_Sub_4_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Add_Sub_4_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/NanoProcessor_Debug_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/NanoProcessor_Debug_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Program_Counter_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Program_Counter_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Instruction_Decoder_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Instruction_Decoder_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/PC_Adder_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/PC_Adder_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Program_ROM_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Program_ROM_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/LUT_16_7_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/LUT_16_7_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Address_Selector_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Address_Selector_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Slow_Clk_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Slow_Clk_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Load_Selector_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Load_Selector_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/Register_Bank_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/Register_Bank_TB.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nanoprocessor/Testbench Files/RegisterData_Multiplexer_TB.vhd', nor could it be found using path 'C:/Users/USER/Downloads/Nanoprocessor/Testbench Files/RegisterData_Multiplexer_TB.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxnew/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 866.242 ; gain = 172.523
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 14:07:28 2026...

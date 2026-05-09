@@ -1,0 +1,734 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  8 17:16:16 2026
+# Process ID: 3900
+# Current directory: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20264 C:\Users\USER\OneDrive\Desktop\GithubFiles\Nano-Processor-Design\Nano_basic_nim\Nano_basic_nim.xpr
+# Log file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/vivado.log
+# Journal file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxnew/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 939.621 ; gain = 187.586
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri May  8 17:16:56 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  8 17:17:50 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1764.516 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1764.516 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 1929.648 ; gain = 949.215
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: NanoProcessor
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1962.504 ; gain = 31.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:17]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Slow_Clk.vhd:4' bound to instance 'U_SlowClock' of component 'Slow_Clk' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Slow_Clk.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Slow_Clk.vhd:9]
+INFO: [Synth 8-3491] module 'Program_Counter' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:5' bound to instance 'U_PC' of component 'Program_Counter' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'Program_Counter' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:14]
+INFO: [Synth 8-3491] module 'reg_3bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:4' bound to instance 'PC_Register' of component 'reg_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'reg_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'reg_3bit' (2#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (3#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:14]
+INFO: [Synth 8-3491] module 'PC_Adder' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:5' bound to instance 'U_PC_Adder' of component 'PC_Adder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'PC_Adder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:12]
+INFO: [Synth 8-3491] module 'RCA_3' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:4' bound to instance 'AddressAdder' of component 'RCA_3' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'RCA_3' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:14]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_0' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:13]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:5' bound to instance 'HA_0' of component 'HA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'HA' (4#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:12]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:5' bound to instance 'HA_1' of component 'HA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'FA' (5#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:13]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_1' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:41]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_2' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'RCA_3' (6#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'PC_Adder' (7#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:12]
+INFO: [Synth 8-3491] module 'Address_Selector' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:5' bound to instance 'U_AddrSel' of component 'Address_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'Address_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Mux_2way_3bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd:4' bound to instance 'Program_Mux' of component 'Mux_2way_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'Mux_2way_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2way_3bit' (8#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Address_Selector' (9#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Program_ROM' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_ROM.vhd:6' bound to instance 'U_ROM' of component 'Program_ROM' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'Program_ROM' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_ROM.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Program_ROM' (10#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_ROM.vhd:13]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:6' bound to instance 'U_ID' of component 'Instruction_Decoder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (11#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:21]
+INFO: [Synth 8-3491] module 'Load_Selector' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:5' bound to instance 'U_LoadSel' of component 'Load_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'Load_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Mux_2way_4bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd:4' bound to instance 'DataSourceMux' of component 'Mux_2way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'Mux_2way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2way_4bit' (12#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Load_Selector' (13#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:5' bound to instance 'U_RegBank' of component 'Register_Bank' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:15]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:4' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:10]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (14#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:10]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (15#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:10]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Zero_Register' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (16#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:14]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_1' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:58]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_2' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:68]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_3' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:78]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_4' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:88]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_5' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:98]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_6' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:108]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_7' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (17#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:15]
+INFO: [Synth 8-3491] module 'RegisterData_Multiplexer' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:5' bound to instance 'U_MuxA' of component 'RegisterData_Multiplexer' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:224]
+INFO: [Synth 8-638] synthesizing module 'RegisterData_Multiplexer' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:13]
+INFO: [Synth 8-3491] module 'Mux_8way_4bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:5' bound to instance 'MUX_INST' of component 'Mux_8way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'Mux_8way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:20]
+INFO: [Synth 8-226] default block is never used [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8way_4bit' (18#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'RegisterData_Multiplexer' (19#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:13]
+INFO: [Synth 8-3491] module 'RegisterData_Multiplexer' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:5' bound to instance 'U_MuxB' of component 'RegisterData_Multiplexer' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:231]
+INFO: [Synth 8-3491] module 'Add_Sub_4_bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:5' bound to instance 'U_ALU' of component 'Add_Sub_4_bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:238]
+INFO: [Synth 8-638] synthesizing module 'Add_Sub_4_bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:16]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:4' bound to instance 'RCA_4_inst' of component 'RCA_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:21]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_0' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:36]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_1' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:44]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_2' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:52]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_3' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (20#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Add_Sub_4_bit' (21#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:16]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/LUT_16_7.vhd:6' bound to instance 'U_LUT_16_7' of component 'LUT_16_7' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/LUT_16_7.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (22#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/LUT_16_7.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (23#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:17]
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2004.203 ; gain = 73.574
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2004.203 ; gain = 73.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2004.203 ; gain = 73.574
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2150.008 ; gain = 219.379
+90 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2150.008 ; gain = 219.379
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri May  8 17:29:14 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  8 17:31:51 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+current_design impl_1
+refresh_design
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2185.434 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2185.434 ; gain = 0.000
+set_property top Program_Counter [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri May  8 17:42:41 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  8 17:43:32 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2188.551 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2188.551 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+current_design rtl_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2199.141 ; gain = 10.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Program_Counter' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:14]
+INFO: [Synth 8-3491] module 'reg_3bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:4' bound to instance 'PC_Register' of component 'reg_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'reg_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'reg_3bit' (1#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (2#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2232.000 ; gain = 43.449
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2232.000 ; gain = 43.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2232.000 ; gain = 43.449
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clock'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clock'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clock'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clock]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Data[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Zero'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Zero'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Overflow'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Overflow'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[4]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[4]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[5]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[5]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[6]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[6]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2244.395 ; gain = 55.844
+set_property top Register_Bank [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri May  8 17:50:08 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  8 17:50:46 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2244.395 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:15]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:4' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:10]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (1#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:10]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (2#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:10]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Zero_Register' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (3#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:14]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_1' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:58]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_2' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:68]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_3' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:78]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_4' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:88]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_5' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:98]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_6' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:108]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_7' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (4#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:15]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2244.395 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2244.395 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2244.395 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Zero'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Zero'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Overflow'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Overflow'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[4]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[4]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[5]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[5]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[6]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S_7Seg[6]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[0]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[1]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[2]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[3]'. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2324.684 ; gain = 80.289
+set_property top NanoProcessor [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri May  8 19:01:13 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  8 19:02:15 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+current_design impl_1
+refresh_design
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2324.684 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2324.684 ; gain = 0.000
+current_design rtl_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2324.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:17]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Slow_Clk.vhd:4' bound to instance 'U_SlowClock' of component 'Slow_Clk' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Slow_Clk.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Slow_Clk.vhd:9]
+INFO: [Synth 8-3491] module 'Program_Counter' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:5' bound to instance 'U_PC' of component 'Program_Counter' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'Program_Counter' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:14]
+INFO: [Synth 8-3491] module 'reg_3bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:4' bound to instance 'PC_Register' of component 'reg_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'reg_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'reg_3bit' (2#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/reg_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (3#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_Counter.vhd:14]
+INFO: [Synth 8-3491] module 'PC_Adder' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:5' bound to instance 'U_PC_Adder' of component 'PC_Adder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'PC_Adder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:12]
+INFO: [Synth 8-3491] module 'RCA_3' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:4' bound to instance 'AddressAdder' of component 'RCA_3' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'RCA_3' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:14]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_0' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:13]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:5' bound to instance 'HA_0' of component 'HA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'HA' (4#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:12]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/HA.vhd:5' bound to instance 'HA_1' of component 'HA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'FA' (5#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:13]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_1' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:41]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_2' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'RCA_3' (6#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_3.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'PC_Adder' (7#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/PC_Adder.vhd:12]
+INFO: [Synth 8-3491] module 'Address_Selector' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:5' bound to instance 'U_AddrSel' of component 'Address_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'Address_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Mux_2way_3bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd:4' bound to instance 'Program_Mux' of component 'Mux_2way_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'Mux_2way_3bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2way_3bit' (8#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Address_Selector' (9#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Address_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Program_ROM' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_ROM.vhd:6' bound to instance 'U_ROM' of component 'Program_ROM' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'Program_ROM' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_ROM.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Program_ROM' (10#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Program_ROM.vhd:13]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:6' bound to instance 'U_ID' of component 'Instruction_Decoder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (11#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd:21]
+INFO: [Synth 8-3491] module 'Load_Selector' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:5' bound to instance 'U_LoadSel' of component 'Load_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'Load_Selector' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Mux_2way_4bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd:4' bound to instance 'DataSourceMux' of component 'Mux_2way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'Mux_2way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2way_4bit' (12#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Load_Selector' (13#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Load_Selector.vhd:14]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:5' bound to instance 'U_RegBank' of component 'Register_Bank' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:15]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:4' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:10]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (14#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:10]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (15#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd:10]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Zero_Register' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (16#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:14]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_1' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:58]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_2' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:68]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_3' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:78]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_4' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:88]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_5' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:98]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_6' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:108]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Reg.vhd:4' bound to instance 'Register_7' of component 'Reg' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (17#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Register_Bank.vhd:15]
+INFO: [Synth 8-3491] module 'RegisterData_Multiplexer' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:5' bound to instance 'U_MuxA' of component 'RegisterData_Multiplexer' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:224]
+INFO: [Synth 8-638] synthesizing module 'RegisterData_Multiplexer' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:13]
+INFO: [Synth 8-3491] module 'Mux_8way_4bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:5' bound to instance 'MUX_INST' of component 'Mux_8way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'Mux_8way_4bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:20]
+INFO: [Synth 8-226] default block is never used [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8way_4bit' (18#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'RegisterData_Multiplexer' (19#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:13]
+INFO: [Synth 8-3491] module 'RegisterData_Multiplexer' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd:5' bound to instance 'U_MuxB' of component 'RegisterData_Multiplexer' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:231]
+INFO: [Synth 8-3491] module 'Add_Sub_4_bit' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:5' bound to instance 'U_ALU' of component 'Add_Sub_4_bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:238]
+INFO: [Synth 8-638] synthesizing module 'Add_Sub_4_bit' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:16]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:4' bound to instance 'RCA_4_inst' of component 'RCA_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:21]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_0' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:36]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_1' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:44]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_2' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:52]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/FA.vhd:5' bound to instance 'FA_3' of component 'FA' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (20#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/imports/RCA_4.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Add_Sub_4_bit' (21#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Add_Sub_4.vhd:16]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/LUT_16_7.vhd:6' bound to instance 'U_LUT_16_7' of component 'LUT_16_7' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/LUT_16_7.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (22#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/LUT_16_7.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (23#1) [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/NanoProcessor.vhd:17]
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2324.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2324.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2324.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+Finished Parsing XDC File [C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Nanoprocessor_Const.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2380.867 ; gain = 56.184
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri May  8 19:04:31 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8AA38A

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../src/Package Files/BusDefinitions.vhd" \
+"../../../../src/RegisterData_Multiplexer.vhd" \
+"../../../../src/Testbench Files/RegisterData_Multiplexer_TB.vhd" \
+
+# Do not sort compile order
+nosort

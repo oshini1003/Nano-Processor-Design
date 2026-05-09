@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/RegisterData_Multiplexer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterData_Multiplexer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Testbench Files/RegisterData_Multiplexer_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterData_Multiplexer_TB

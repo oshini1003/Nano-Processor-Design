@@ -1,0 +1,186 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu May  7 15:10:06 2026
+# Process ID: 11408
+# Current directory: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20364 C:\Users\USER\OneDrive\Desktop\GithubFiles\Nano-Processor-Design\Nano_Processor_Advanced\Nano_Processor_Advanced.xpr
+# Log file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/vivado.log
+# Journal file: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ssn computres/New folder/Nano_Processor_Advanced' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.ip_user_files', nor could it be found using path 'C:/Users/ssn computres/New folder/Nano_Processor_Advanced/Nano_Processor_Advanced.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxnew/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+[Thu May  7 15:10:33 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu May  7 15:27:28 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu May  7 15:28:08 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1778.160 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1778.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1905.246 ; gain = 943.000
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu May  7 15:29:36 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+close_hw
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu May  7 15:43:29 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu May  7 15:44:07 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2545.918 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2545.918 ; gain = 0.000
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu May  7 15:46:04 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu May  7 15:53:39 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu May  7 15:54:17 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2587.074 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2587.074 ; gain = 0.000
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu May  7 15:56:07 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8AA38A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu May  7 15:57:01 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu May  7 15:58:49 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu May  7 15:59:25 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2602.613 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2602.613 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu May  7 16:00:33 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu May  7 16:03:23 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/synth_1/runme.log
+[Thu May  7 16:03:23 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_Processor_Advanced/Nano_Processor_Advanced.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  7 17:34:43 2026...

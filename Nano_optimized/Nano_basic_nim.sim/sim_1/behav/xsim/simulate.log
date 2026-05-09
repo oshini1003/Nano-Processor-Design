@@ -1,0 +1,4 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Note: All tests passed successfully
+Time: 400 ns  Iteration: 0  Process: /RegisterData_Multiplexer_TB/stim_proc  File: C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim/src/Testbench Files/RegisterData_Multiplexer_TB.vhd

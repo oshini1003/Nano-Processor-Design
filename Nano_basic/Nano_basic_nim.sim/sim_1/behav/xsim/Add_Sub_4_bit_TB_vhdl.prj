@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../src/Package Files/BusDefinitions.vhd" \
+"../../../../src/Add_Sub_4.vhd" \
+"../../../../src/imports/FA.vhd" \
+"../../../../src/imports/HA.vhd" \
+"../../../../src/imports/RCA_4.vhd" \
+"../../../../src/Testbench Files/Add_Sub_4_TB.vhd" \
+
+# Do not sort compile order
+nosort

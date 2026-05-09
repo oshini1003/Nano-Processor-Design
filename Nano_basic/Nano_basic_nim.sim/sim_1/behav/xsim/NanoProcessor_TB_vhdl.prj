@@ -1,0 +1,31 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../src/Package Files/BusDefinitions.vhd" \
+"../../../../src/Add_Sub_4.vhd" \
+"../../../../src/Address_Selector.vhd" \
+"../../../../src/imports/Decoder_2_to_4.vhd" \
+"../../../../src/imports/Decoder_3_to_8.vhd" \
+"../../../../src/imports/FA.vhd" \
+"../../../../src/imports/HA.vhd" \
+"../../../../src/Package Files/constants.vhd" \
+"../../../../Nano_basic_nim.srcs/sources_1/new/Instruction_Decoder.vhd" \
+"../../../../src/LUT_16_7.vhd" \
+"../../../../src/Load_Selector.vhd" \
+"../../../../src/imports/Mux_2way_3bit.vhd" \
+"../../../../src/imports/Mux_2way_4bit.vhd" \
+"../../../../src/imports/Mux_8way_4bit.vhd" \
+"../../../../src/NanoProcessor.vhd" \
+"../../../../src/PC_Adder.vhd" \
+"../../../../src/Program_Counter.vhd" \
+"../../../../src/Program_ROM.vhd" \
+"../../../../src/imports/RCA_3.vhd" \
+"../../../../src/imports/RCA_4.vhd" \
+"../../../../src/imports/Reg.vhd" \
+"../../../../src/RegisterData_Multiplexer.vhd" \
+"../../../../src/Register_Bank.vhd" \
+"../../../../src/Slow_Clk.vhd" \
+"../../../../src/imports/reg_3bit.vhd" \
+"../../../../src/Testbench Files/NanoProcessor_TB.vhd" \
+
+# Do not sort compile order
+nosort

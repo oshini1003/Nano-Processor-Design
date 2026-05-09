@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  8 22:43:30 2026
+# Process ID: 18904
+# Current directory: C:/Users/USER/OneDrive/Desktop/Nano_basic_nim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18928 C:\Users\USER\OneDrive\Desktop\Nano_basic_nim\Nano_basic_nim.xpr
+# Log file: C:/Users/USER/OneDrive/Desktop/Nano_basic_nim/vivado.log
+# Journal file: C:/Users/USER/OneDrive/Desktop/Nano_basic_nim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/OneDrive/Desktop/Nano_basic_nim/Nano_basic_nim.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/USER/OneDrive/Desktop/GithubFiles/Nano-Processor-Design/Nano_basic_nim' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxnew/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 972.250 ; gain = 202.625
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri May  8 22:48:25 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/Nano_basic_nim/Nano_basic_nim.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  8 22:49:08 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri May  8 22:50:09 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/OneDrive/Desktop/Nano_basic_nim/Nano_basic_nim.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1832.094 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1832.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1950.855 ; gain = 935.578
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  8 22:52:57 2026...

@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue May  5 11:40:07 2026
+# Process ID: 29288
+# Current directory: C:/Users/USER/Downloads/Nano_basic_nim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20572 C:\Users\USER\Downloads\Nano_basic_nim\Nano_basic_nim.xpr
+# Log file: C:/Users/USER/Downloads/Nano_basic_nim/vivado.log
+# Journal file: C:/Users/USER/Downloads/Nano_basic_nim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+add_files -norecurse {C:/Users/USER/Downloads/Nano_basic_nim/src/Slow_Clk.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Register_Bank.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Add_Sub_4.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Load_Selector.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Address_Selector.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/RegisterData_Multiplexer.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Program_Counter.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/NanoProcessor.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Instruction_Decoder.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/PC_Adder.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/Program_ROM.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/LUT_16_7.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/LUT_16_7_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Load_Selector_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Add_Sub_4_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Program_ROM_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/RegisterData_Multiplexer_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Address_Selector_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/NanoProcessor_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Register_Bank_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/PC_Adder_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Program_Counter_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Slow_Clk_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/Instruction_Decoder_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/InstructionDecoder_TB.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Testbench Files/NanoProcessor_Debug_TB.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+add_files -fileset constrs_1 -norecurse C:/Users/USER/Downloads/Nano_basic_nim/src/Nanoprocessor_Const.xdc
+file mkdir C:/Users/USER/Downloads/Nanoprocessor/Constraint File
+add_files -norecurse {C:/Users/USER/Downloads/Nano_basic_nim/src/imports/reg_3bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Mux_2way_4bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/FA.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Decoder_2_to_4.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Mux_2way_3bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Reg.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/RCA_4.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Decoder_3_to_8.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/RCA_3.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/Mux_8way_4bit.vhd C:/Users/USER/Downloads/Nano_basic_nim/src/imports/HA.vhd}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/adders.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/BusDefinitions.vhd} {C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/constants.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Adress Selector/Address_Selector.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Adress Selector/Address_Selector.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Add_Subtract Unit/Add_Sub_4.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Package Files/BusDefinitions.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_2_to_4.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_3_to_8.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/FA.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/HA.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Add_Subtract Unit/Add_Sub_4.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Package Files/BusDefinitions.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_2_to_4.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Decoder_3_to_8.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/FA.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/HA.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Instruction Deocoder/Instruction_Decoder.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Lookup Table/LUT_16_7.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Load Selector/Load_Selector.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_3bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_4bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_8way_4bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Top File/NanoProcessor.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/PC Adder/PC_Adder.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program Counter/Program_Counter.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/reg_3bit.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Package Files/constants.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Package Files/adders.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Slow Clock/Slow_Clk.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Bank/Register_Bank.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Data Multiplexer/RegisterData_Multiplexer.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Reg.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_4.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_3.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program ROM/Program_ROM.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/USER/Downloads/Nanoprocessor/Source Files/Instruction Deocoder/Instruction_Decoder.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Lookup Table/LUT_16_7.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Load Selector/Load_Selector.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_3bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_2way_4bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Mux_8way_4bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Top File/NanoProcessor.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/PC Adder/PC_Adder.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program Counter/Program_Counter.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/reg_3bit.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Package Files/constants.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Package Files/adders.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Slow Clock/Slow_Clk.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Bank/Register_Bank.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Register Data Multiplexer/RegisterData_Multiplexer.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/Reg.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_4.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Building Blocks/RCA_3.vhd} {C:/Users/USER/Downloads/Nanoprocessor/Source Files/Program ROM/Program_ROM.vhd}}
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_hw
+add_files -norecurse {{C:/Users/USER/Downloads/Nano_basic_nim/src/Package Files/BusDefinitions.vhd}}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Downloads/Nanoprocessor/Constraint File/Nanoprocessor_Const.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/USER/Downloads/Nanoprocessor/Constraint File/Nanoprocessor_Const.xdc}}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/USER/Downloads/Nano_basic_nim/Nano_basic_nim.runs/impl_1/NanoProcessor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
